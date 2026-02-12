@@ -1,0 +1,13 @@
+--- 
+ingest_fetch_configuration.yaml
+---
+tasks:
+  - function: "fetch_data"
+    args:
+      url: "https://api.example.com/data"
+  - function: "clean_data"
+    args:
+      remove_nulls: true
+  - function: "save_to_db"
+    args:
+      table: "analytics"
