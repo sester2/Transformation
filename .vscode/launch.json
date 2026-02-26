@@ -5,12 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python Debugger: Current File",
+            "name": "Python: Current File",
             "type": "debugpy",
             "request": "launch",
-            "program": "${file}",
+            "program": "C:/Users/SammyEster/OneDrive - AEM Corporation/Documents/Personal Work`[Personal`]/Transformation/Pipeline/Ingestion/loading_data.py",
             "console": "integratedTerminal",
-            "justMyCode": false
+            "justMyCode": false,  // Ensures only your code is debugged
+            "debugStdLib": true
         }
     ]
 }
